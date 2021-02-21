@@ -3,7 +3,7 @@
 //#include <stdbool.h>    // for booking
 //#include <string.h>
 //#include <stdlib.h>     // for exit
-//#include <ctype.h>      // for tolower
+//#include <ctype.h>      // for tolower 
 #include "secondary_funk.h"
 #include "menu_processing.h"
 #include "display_menu.h"
@@ -18,5 +18,6 @@ int main (void)
 
      file_reader_start (flights,PLC, RACE);
      show_race_menu (flights, PLC, RACE);
+     
     return 0;
 }
